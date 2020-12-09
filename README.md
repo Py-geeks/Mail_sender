@@ -24,3 +24,13 @@ var transporter = nodemailer.createTransport({
         },
       });
 ```
+
+### Checkout out our app [here](https://sheltered-plains-91495.herokuapp.com/)
+
+### Demonstration
+This is the interface of our Node App<br>
+<img src="mobile view.jpg" alt="Interface" height="585px" width="270px">
+
+### Developed by
+[Binayak Sadangi](https://github.com/binayaksadangi)<br>
+[Ankush Mishra](https://github.com/ankush0939)
