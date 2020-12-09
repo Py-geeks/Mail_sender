@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const exphbs = require('express-handlebars');
 const nodemailer = require('nodemailer');
 const path = require('path');
-var port = process.env.PORT || 8080
+var port = 3000;
 
 const app = express();
 
@@ -48,7 +48,7 @@ app.post('/send', (req,res) => {
         //secure: false, 
         auth: {
           user: 'beingsemicolons@gmail.com', //Set your sender email address
-          pass: 'ashish_op', //Give your password for uuthentication
+          pass: '********', //Give your password for uuthentication
         },
         /*tls: {
             rejectUnauthorized: false
