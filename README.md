@@ -29,7 +29,7 @@ var transporter = nodemailer.createTransport({
 
 ### Demonstration
 This is the interface of our Node App<br><br>
-<img src="mobile view.jpg" alt="Interface" height="585px" width="270px">
+<img src="desktop view.jpg" alt="Interface" height="100%" width="100%">
 
 ### Developed by
 [Binayak Sadangi](https://github.com/binayaksadangi)<br>
