@@ -11,3 +11,16 @@ This is a mail sender node application which uses the  nodeMailer node module. Y
 <img align="left" alt="css" width="26px" src="css.png" />
 <img align="left" alt="handlebars" width="26px" src="handlebar.png" />
 <img align="left" alt="VS Code" width="26px" src="vscode.png" />
+<br>
+
+### Change code for self usage
+Find this block of code and read the comments to personalize.
+```node
+var transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+          user: 'beingsemicolons@gmail.com', //Set your sender email address. make sure in this id the google persmissions are enabled.
+          pass: '********', //Give your original mail id password for authentication
+        },
+      });
+```
